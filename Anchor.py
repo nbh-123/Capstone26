@@ -8,8 +8,10 @@ import math
 
 #To align two sets of points, the steps are to: 
 #    1. find the centroids
-#    2. find the best rotation
-#    3. translate one centroid to the other's position
+#    2. subtract each point from its centroid to find the needed rotation
+#    3. translate the boundary points so the center is at  origin
+#    4. rotate the boundary points according to step 2
+#    5. translate the boundary points to the field points
 
 
 #4x4 matrix that turns points counterclockwise by theta (radians)
