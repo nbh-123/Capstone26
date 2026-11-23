@@ -1,3 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+
 #this function assigns each fieldwork point to a boundary point
 def assign_points(boundary, points):
     fieldList = []
