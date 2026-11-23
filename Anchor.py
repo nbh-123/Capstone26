@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import math
+from AssignPoints import assign_points
 
 # anchor.py takes boundary and points as input. They are two tables holding points:
 #boundary: point, northing, easting
